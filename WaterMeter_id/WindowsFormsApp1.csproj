@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A1D6A4A7-FA3F-4C1E-B3A6-B5774DB48B7A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WaterMeter_id</RootNamespace>
+    <AssemblyName>WaterMeter_id</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.9.0.0, Culture=neutral, PublicKeyToken=0e99375e54769942, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\wmm-recharge-center\Code\WindowsFormsApp1\DLLs\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.Licensing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=f89b4760ba7dcb6b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bunifu.UI.WinForms.6.3.0\lib\net452\Bunifu.Licensing.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms, Version=0.0.0.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bunifu.UI.WinForms.6.3.0\lib\net452\Bunifu.UI.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.6\lib\net472\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=2.0.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLLs\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UnifyWaterCard, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLLs\UnifyWaterCard.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BLL\BLL_JsonSettings.cs" />
+    <Compile Include="BLL\BLL_Aggregation.cs" />
+    <Compile Include="BLL\BLL_CardIssues.cs" />
+    <Compile Include="BLL\BLL_CardType.cs" />
+    <Compile Include="BLL\BLL_ChargeBasicInf.cs" />
+    <Compile Include="BLL\BLL_Client.cs" />
+    <Compile Include="BLL\BLL_ClientInfo.cs" />
+    <Compile Include="BLL\BLL_Commission.cs" />
+    <Compile Include="BLL\BLL_CompanyData.cs" />
+    <Compile Include="BLL\BLL_ConfigCard.cs" />
+    <Compile Include="BLL\BLL_Configurations.cs" />
+    <Compile Include="BLL\BLL_Contract.cs" />
+    <Compile Include="BLL\BLL_CreditBalance.cs" />
+    <Compile Include="BLL\BLL_Deductions.cs" />
+    <Compile Include="BLL\BLL_Getway.cs" />
+    <Compile Include="BLL\BLL_Login.cs" />
+    <Compile Include="BLL\BLL_MaintCard.cs" />
+    <Compile Include="BLL\BLL_MeterIssues.cs" />
+    <Compile Include="BLL\BLL_MeterList.cs" />
+    <Compile Include="BLL\BLL_MeterState.cs" />
+    <Compile Include="BLL\BLL_MeterType.cs" />
+    <Compile Include="BLL\BLL_Offtimes.cs" />
+    <Compile Include="BLL\BLL_Operator.cs" />
+    <Compile Include="BLL\BLL_OperatorLog.cs" />
+    <Compile Include="BLL\BLL_Orders.cs" />
+    <Compile Include="BLL\BLL_PriceScheduler.cs" />
+    <Compile Include="BLL\BLL_ReadingCardInfo.cs" />
+    <Compile Include="BLL\BLL_Readings.cs" />
+    <Compile Include="BLL\BLL_Registration.cs" />
+    <Compile Include="BLL\BLL_RetrivalCard.cs" />
+    <Compile Include="BLL\BLL_SchedulerMeter.cs" />
+    <Compile Include="BLL\BLL_SmartConfiguration.cs" />
+    <Compile Include="BLL\BLL_UartConfigurations.cs" />
+    <Compile Include="BLL\BLL_UnitType.cs" />
+    <Compile Include="BLL\CompanyCard_ReturnRead.cs" />
+    <Compile Include="CollectorConfigForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CollectorConfigForm.Designer.cs">
+      <DependentUpon>CollectorConfigForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Commuincation\SmartTLV.cs" />
+    <Compile Include="Commuincation\UartActions.cs" />
+    <Compile Include="Commuincation\unifyWaterCard_Comm.cs" />
+    <Compile Include="DAL\DAL_AddMeter.cs" />
+    <Compile Include="DAL\DAL_Aggregation.cs" />
+    <Compile Include="DAL\DAL_CardIssues.cs" />
+    <Compile Include="DAL\DAL_CardType.cs" />
+    <Compile Include="DAL\DAL_ChargeBasicInf.cs" />
+    <Compile Include="DAL\DAL_Client.cs" />
+    <Compile Include="DAL\DAL_ClientInfo.cs" />
+    <Compile Include="DAL\DAL_ClientManagment.cs" />
+    <Compile Include="DAL\DAL_Commission.cs" />
+    <Compile Include="DAL\DAL_CompanyData.cs" />
+    <Compile Include="DAL\DAL_ConfigCard.cs" />
+    <Compile Include="DAL\DAL_Configurations.cs" />
+    <Compile Include="DAL\DAL_Contract.cs" />
+    <Compile Include="DAL\DAL_CreditBalance.cs" />
+    <Compile Include="DAL\DAL_Deductions.cs" />
+    <Compile Include="DAL\DAL_Getway.cs" />
+    <Compile Include="DAL\DAL_History.cs" />
+    <Compile Include="DAL\DAL_Login.cs" />
+    <Compile Include="DAL\DAL_MaintCard.cs" />
+    <Compile Include="DAL\DAL_MeterIssues.cs" />
+    <Compile Include="DAL\DAL_MeterState.cs" />
+    <Compile Include="DAL\DAL_MeterType.cs" />
+    <Compile Include="DAL\DAL_Offtimes.cs" />
+    <Compile Include="DAL\DAL_Operator.cs" />
+    <Compile Include="DAL\DAL_OperatorLog.cs" />
+    <Compile Include="DAL\DAL_Order.cs" />
+    <Compile Include="DAL\DAL_PriceScheduler.cs" />
+    <Compile Include="DAL\DAL_Readings.cs" />
+    <Compile Include="DAL\DAL_Registration.cs" />
+    <Compile Include="DAL\DAL_RetrivalCard.cs" />
+    <Compile Include="DAL\DAL_SchedulerMeter.cs" />
+    <Compile Include="DAL\DAL_SmartConfiguration.cs" />
+    <Compile Include="DAL\DAL_UnitType.cs" />
+    <Compile Include="DAL\DatabaseConnection.cs" />
+    <Compile Include="DAL\DataEnum.cs" />
+    <Compile Include="DatabaseConnection.cs" />
+    <Compile Include="databaseTabels.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>databaseTabels.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DLLCsh\APDUData.cs" />
+    <Compile Include="DLLCsh\APDUHELPER.cs" />
+    <Compile Include="DLLCsh\BERTLVPayloadBuilder.cs" />
+    <Compile Include="DLLCsh\ReadingSmart.cs" />
+    <Compile Include="DLLCsh\CountList.cs" />
+    <Compile Include="DLLCsh\CreadiTBalnceSmart.cs" />
+    <Compile Include="DLLCsh\CryptoEngine.cs" />
+    <Compile Include="DLLCsh\EncryptionAlgorithms.cs" />
+    <Compile Include="DLLCsh\GeneralUtility.cs" />
+    <Compile Include="DLLCsh\HashType.cs" />
+    <Compile Include="DLLCsh\Signer.cs" />
+    <Compile Include="DLLCsh\Tlv.cs" />
+    <Compile Include="DLLCsh\TLVTagAttribute.cs" />
+    <Compile Include="JsonConfigr\JasonConfigParameters.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Security\Secuirty.cs" />
+    <Compile Include="SEL\SEL_AddMeter.cs" />
+    <Compile Include="SEL\SEL_Aggregation.cs" />
+    <Compile Include="SEL\SEL_CardIssues.cs" />
+    <Compile Include="SEL\SEL_CardType.cs" />
+    <Compile Include="SEL\SEL_ChargeReport.cs" />
+    <Compile Include="SEL\SEL_Client.cs" />
+    <Compile Include="SEL\SEL_ClientMAnagment.cs" />
+    <Compile Include="SEL\SEL_CollectorConfig.cs" />
+    <Compile Include="SEL\SEL_Commission.cs" />
+    <Compile Include="SEL\SEL_CompanyData.cs" />
+    <Compile Include="SEL\SEL_ConfigurationCard.cs" />
+    <Compile Include="SEL\SEL_Configurations.cs" />
+    <Compile Include="SEL\SEL_Getway.cs" />
+    <Compile Include="SEL\SEL_Historycs.cs" />
+    <Compile Include="SEL\SEL_MaintainCard.cs" />
+    <Compile Include="SEL\SEL_MeterIssues.cs" />
+    <Compile Include="SEL\SEL_MeterList.cs" />
+    <Compile Include="SEL\SEL_MeterType.cs" />
+    <Compile Include="SEL\SEL_Offtimes.cs" />
+    <Compile Include="SEL\SEL_Operator.cs" />
+    <Compile Include="SEL\SEL_Orders.cs" />
+    <Compile Include="SEL\SEL_PriceSchduler.cs" />
+    <Compile Include="SEL\SEL_ReadClientCard.cs" />
+    <Compile Include="SEL\SEL_Recharging.cs" />
+    <Compile Include="SEL\SEL_Registration.cs" />
+    <Compile Include="SEL\SEL_RetrivalCard.cs" />
+    <Compile Include="SEL\SEL_SmartConfiguration.cs" />
+    <Compile Include="SEL\SEL_UnitType.cs" />
+    <Compile Include="_eoip_wmmDataSet.cs">
+      <DependentUpon>_eoip_wmmDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="_eoip_wmmDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_eoip_wmmDataSet.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CollectorConfigForm.resx">
+      <DependentUpon>CollectorConfigForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="databaseTabels.xsc">
+      <DependentUpon>databaseTabels.xsd</DependentUpon>
+    </None>
+    <None Include="databaseTabels.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>databaseTabels.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="databaseTabels.xss">
+      <DependentUpon>databaseTabels.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet2.xsc">
+      <DependentUpon>DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet2.xss">
+      <DependentUpon>DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="_eoip_wmmDataSet.xsc">
+      <DependentUpon>_eoip_wmmDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="_eoip_wmmDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_eoip_wmmDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_eoip_wmmDataSet.xss">
+      <DependentUpon>_eoip_wmmDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DLLs\BouncyCastle.Crypto.dll" />
+    <Content Include="DLLs\dcrf32.dll" />
+    <Content Include="DLLs\log4net.dll" />
+    <Content Include="DLLs\UnifyWaterCard.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

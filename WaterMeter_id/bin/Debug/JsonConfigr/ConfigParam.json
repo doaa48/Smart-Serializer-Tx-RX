@@ -1,0 +1,1 @@
+{"ComPort":"COM10","UART_BaudRate":115200,"UART_Parity":"None","UART_DataBits":8,"UART_StopBits":1,"GatewayNumber":1,"Timeout":0,"Frequency":0,"TxLog":"TXLog.txt","RxLog":"RXLog.txt"}

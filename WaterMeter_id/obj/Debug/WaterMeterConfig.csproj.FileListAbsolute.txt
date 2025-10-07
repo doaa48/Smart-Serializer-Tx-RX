@@ -1,0 +1,31 @@
+C:\Users\Eng. MHamed\source\repos\WaterMeter_id\WaterMeter_id\bin\Debug\WaterMeter_id.exe.config
+C:\Users\Eng. MHamed\source\repos\WaterMeter_id\WaterMeter_id\bin\Debug\WaterMeter_id.exe
+C:\Users\Eng. MHamed\source\repos\WaterMeter_id\WaterMeter_id\bin\Debug\WaterMeter_id.pdb
+C:\Users\Eng. MHamed\source\repos\WaterMeter_id\WaterMeter_id\bin\Debug\Bunifu.Licensing.dll
+C:\Users\Eng. MHamed\source\repos\WaterMeter_id\WaterMeter_id\bin\Debug\Bunifu.UI.WinForms.dll
+C:\Users\Eng. MHamed\source\repos\WaterMeter_id\WaterMeter_id\bin\Debug\Guna.UI2.dll
+C:\Users\Eng. MHamed\source\repos\WaterMeter_id\WaterMeter_id\bin\Debug\Bunifu.UI.WinForms.xml
+C:\Users\Eng. MHamed\source\repos\WaterMeter_id\WaterMeter_id\obj\Debug\WaterMeterConfig.csproj.AssemblyReference.cache
+C:\Users\Eng. MHamed\source\repos\WaterMeter_id\WaterMeter_id\obj\Debug\WaterMeter_id.Properties.Resources.resources
+C:\Users\Eng. MHamed\source\repos\WaterMeter_id\WaterMeter_id\obj\Debug\WaterMeterConfig.csproj.GenerateResource.cache
+C:\Users\Eng. MHamed\source\repos\WaterMeter_id\WaterMeter_id\obj\Debug\WaterMeterConfig.csproj.CoreCompileInputs.cache
+C:\Users\Eng. MHamed\source\repos\WaterMeter_id\WaterMeter_id\obj\Debug\WaterMeterConfig.csproj.CopyComplete
+C:\Users\Eng. MHamed\source\repos\WaterMeter_id\WaterMeter_id\obj\Debug\WaterMeter_id.exe
+C:\Users\Eng. MHamed\source\repos\WaterMeter_id\WaterMeter_id\obj\Debug\WaterMeter_id.pdb
+C:\Users\Eng. MHamed\source\repos\WaterMeter_id\WaterMeter_id\obj\Debug\WaterMeter_id.CollectorConfigForm.resources
+C:\Users\user\Desktop\Doaa\WaterMeter_id\WaterMeter_id\bin\Debug\WaterMeter_id.exe.config
+C:\Users\user\Desktop\Doaa\WaterMeter_id\WaterMeter_id\bin\Debug\WaterMeter_id.exe
+C:\Users\user\Desktop\Doaa\WaterMeter_id\WaterMeter_id\bin\Debug\WaterMeter_id.pdb
+C:\Users\user\Desktop\Doaa\WaterMeter_id\WaterMeter_id\bin\Debug\Bunifu.Licensing.dll
+C:\Users\user\Desktop\Doaa\WaterMeter_id\WaterMeter_id\bin\Debug\Bunifu.UI.WinForms.dll
+C:\Users\user\Desktop\Doaa\WaterMeter_id\WaterMeter_id\bin\Debug\Guna.UI2.dll
+C:\Users\user\Desktop\Doaa\WaterMeter_id\WaterMeter_id\bin\Debug\Bunifu.UI.WinForms.xml
+C:\Users\user\Desktop\Doaa\WaterMeter_id\WaterMeter_id\obj\Debug\WaterMeterConfig.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Doaa\WaterMeter_id\WaterMeter_id\obj\Debug\WaterMeterConfig.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\Desktop\Doaa\WaterMeter_id\WaterMeter_id\obj\Debug\WaterMeter_id.CollectorConfigForm.resources
+C:\Users\user\Desktop\Doaa\WaterMeter_id\WaterMeter_id\obj\Debug\WaterMeter_id.Properties.Resources.resources
+C:\Users\user\Desktop\Doaa\WaterMeter_id\WaterMeter_id\obj\Debug\WaterMeterConfig.csproj.GenerateResource.cache
+C:\Users\user\Desktop\Doaa\WaterMeter_id\WaterMeter_id\obj\Debug\WaterMeterConfig.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Doaa\WaterMeter_id\WaterMeter_id\obj\Debug\WaterMeterConfig.csproj.CopyComplete
+C:\Users\user\Desktop\Doaa\WaterMeter_id\WaterMeter_id\obj\Debug\WaterMeter_id.exe
+C:\Users\user\Desktop\Doaa\WaterMeter_id\WaterMeter_id\obj\Debug\WaterMeter_id.pdb

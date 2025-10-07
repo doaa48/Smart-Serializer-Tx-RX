@@ -1,0 +1,4 @@
+serverIp = "127.0.0.1";
+dbName = "eoip-wmm";
+username = "mostafa"; 
+password = "123456";
